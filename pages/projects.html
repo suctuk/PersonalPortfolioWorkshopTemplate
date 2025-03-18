@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic meta tags for proper rendering and SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Title that appears in the browser tab -->
+    <title>My Portfolio | Projects</title>
+    
+    <!-- Link to the stylesheet -->
+    <link rel="stylesheet" href="../css/styles.css">
+    
+    <!-- Font Awesome for icons (from CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header section with navigation -->
+    <header>
+        <div class="container">
+            <!-- Your Name/Logo -->
+            <div class="logo">
+                <h1>Your Name</h1>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <!-- Projects section header -->
+        <section class="page-header">
+            <div class="container">
+                <h2>My Projects</h2>
+                <p>Here's a collection of my recent work. Each project includes a description, technologies used, and links to live demos or code repositories.</p>
+            </div>
+        </section>
+
+        <!-- Projects grid section (using CSS Grid) -->
+        <section class="projects-showcase">
+            <div class="container">
+                <!-- Projects grid container -->
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project" id="project1">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Project 1">
+                        </div>
+                        <div class="project-details">
+                            <h3>Project Name 1</h3>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <p class="project-description">
+                                Detailed description of your project. Explain what it does, why you built it,
+                                and any challenges you faced or interesting solutions you implemented.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="btn small-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#" class="btn small-btn" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project" id="project2">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Project 2">
+                        </div>
+                        <div class="project-details">
+                            <h3>Project Name 2</h3>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <p class="project-description">
+                                Detailed description of your project. Explain what it does, why you built it,
+                                and any challenges you faced or interesting solutions you implemented.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="btn small-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#" class="btn small-btn" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project" id="project3">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Project 3">
+                        </div>
+                        <div class="project-details">
+                            <h3>Project Name 3</h3>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <p class="project-description">
+                                Detailed description of your project. Explain what it does, why you built it,
+                                and any challenges you faced or interesting solutions you implemented.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="btn small-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#" class="btn small-btn" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Add more projects by copying the article structure -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Code Example Section -->
+        <section class="code-examples">
+            <div class="container">
+                <h2 class="section-title">Code Samples</h2>
+                <p>Here are some code samples demonstrating my programming skills:</p>
+                
+                <div class="code-sample">
+                    <h3>HTML Sample</h3>
+                    <!-- Code block for HTML -->
+                    <pre><code class="language-html">
+&lt;!-- Responsive navigation menu -->
+&lt;nav class="main-nav">
+  &lt;ul>
+    &lt;li>&lt;a href="#home">Home&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#about">About&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#projects">Projects&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#contact">Contact&lt;/a>&lt;/li>
+  &lt;/ul>
+&lt;/nav>
+                    </code></pre>
+                </div>
+                
+                <div class="code-sample">
+                    <h3>CSS Sample</h3>
+                    <!-- Code block for CSS -->
+                    <pre><code class="language-css">
+/* Flexbox layout for responsive design */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 0 calc(33.333% - 20px);
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 calc(50% - 15px);
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 0 0 100%;
+  }
+}
+                    </code></pre>
+                </div>
+                
+                <div class="code-sample">
+                    <h3>JavaScript Sample</h3>
+                    <!-- Code block for JavaScript -->
+                    <pre><code class="language-javascript">
+// Simple form validation
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('contact-form');
+  
+  form.addEventListener('submit', (e) => {
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+    
+    let isValid = true;
+    
+    if (!email || !email.includes('@')) {
+      isValid = false;
+      showError('email', 'Please enter a valid email address');
+    }
+    
+    if (!message) {
+      isValid = false;
+      showError('message', 'Please enter a message');
+    }
+    
+    if (!isValid) {
+      e.preventDefault();
+    }
+  });
+  
+  function showError(field, message) {
+    const errorElement = document.getElementById(`${field}-error`);
+    errorElement.textContent = message;
+    errorElement.style.display = 'block';
+  }
+});
+                    </code></pre>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Copyright information -->
+                <div class="copyright">
+                    <p>&copy; 2025 Your Name. All rights reserved.</p>
+                </div>
+                
+                <!-- Social media links -->
+                <div class="social-links">
+                    <!-- Add your social media profiles here -->
+                    <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <!-- Add more social links as needed -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to JavaScript files -->
+    <script src="../js/prism.js"></script>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>

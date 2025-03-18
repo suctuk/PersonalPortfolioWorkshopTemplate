@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic meta tags for proper rendering and SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Title that appears in the browser tab -->
+    <title>My Portfolio | Contact</title>
+    
+    <!-- Link to the stylesheet -->
+    <link rel="stylesheet" href="../css/styles.css">
+    
+    <!-- Font Awesome for icons (from CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header section with navigation -->
+    <header>
+        <div class="container">
+            <!-- Your Name/Logo -->
+            <div class="logo">
+                <h1>Your Name</h1>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <!-- Contact section header -->
+        <section class="page-header">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Get in touch for collaborations, opportunities, or just to say hello!</p>
+            </div>
+        </section>
+
+        <!-- Contact information and form -->
+        <section class="contact-section">
+            <div class="container">
+                <!-- Contact grid layout -->
+                <div class="contact-grid">
+                    <!-- Contact information -->
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>City, State, Country</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p><a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p><a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-media">
+                            <h4>Follow Me</h4>
+                            <div class="social-icons">
+                                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Best Ways to Contact section -->
+                    <div class="contact-form">
+                        <h3>Best Ways to Reach Me</h3>
+                        
+                        <!-- Note about contact form -->
+                        <div class="note-box">
+                            <p><i class="fas fa-info-circle"></i> <strong>Note:</strong> This is a static portfolio hosted on GitHub Pages, which doesn't support backend processing for contact forms. Here are the best ways to get in touch with me:</p>
+                        </div>
+                        
+                        <div class="contact-options">
+                            <!-- Email Option -->
+                            <div class="contact-option">
+                                <div class="contact-option-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-option-details">
+                                    <h4>Send me an email</h4>
+                                    <p>Direct and reliable way to reach me for any inquiries</p>
+                                    <a href="mailto:your.email@example.com" class="btn primary-btn">Email Me</a>
+                                </div>
+                            </div>
+                            
+                            <!-- LinkedIn Option -->
+                            <div class="contact-option">
+                                <div class="contact-option-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="contact-option-details">
+                                    <h4>Connect on LinkedIn</h4>
+                                    <p>Great for professional connections and quick messages</p>
+                                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="btn primary-btn">LinkedIn Profile</a>
+                                </div>
+                            </div>
+                            
+                            <!-- GitHub Option -->
+                            <div class="contact-option">
+                                <div class="contact-option-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="contact-option-details">
+                                    <h4>Check out my code</h4>
+                                    <p>View my projects and open issues for collaboration</p>
+                                    <a href="https://github.com/yourusername" target="_blank" class="btn primary-btn">GitHub Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Comment explaining how to implement a working form -->
+                        <!--
+                        IMPLEMENTATION NOTE FOR STUDENTS:
+                        
+                        To create a working contact form, you'll need one of these options:
+                        
+                        1. A backend server to process form submissions (PHP, Node.js, etc.)
+                        2. A form submission service like Formspree (https://formspree.io)
+                        3. Netlify Forms if you host on Netlify (https://www.netlify.com/products/forms/)
+                        
+                        Example implementation with Formspree:
+                        
+                        <form action="https://formspree.io/f/your-form-id" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn primary-btn">Send Message</button>
+                        </form>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Alternative contact methods section -->
+        <section class="alternative-contact">
+            <div class="container">
+                <h2 class="section-title">Other Ways to Reach Me</h2>
+                
+                <div class="contact-methods">
+                    <!-- Scheduling -->
+                    <div class="contact-method-card">
+                        <i class="far fa-calendar-alt"></i>
+                        <h3>Schedule a Meeting</h3>
+                        <p>Prefer to talk directly? Schedule a video call or in-person meeting at a time that works for you.</p>
+                        <a href="#" class="btn secondary-btn">Book a Time</a>
+                    </div>
+                    
+                    <!-- Quick Response -->
+                    <div class="contact-method-card">
+                        <i class="fas fa-comment-dots"></i>
+                        <h3>Quick Response</h3>
+                        <p>Need a quick answer? Send me a message on LinkedIn for faster responses during business hours.</p>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" class="btn secondary-btn">Message on LinkedIn</a>
+                    </div>
+                    
+                    <!-- Project Inquiry -->
+                    <div class="contact-method-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Project Inquiry</h3>
+                        <p>Interested in working together? Let me know about your project and I'll get back to you with details.</p>
+                        <a href="#" class="btn secondary-btn" onclick="scrollToContactForm(); return false;">Project Form</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                
+                <div class="faq-grid">
+                    <!-- FAQ Item 1 -->
+                    <div class="faq-item">
+                        <h3>What services do you offer?</h3>
+                        <p>I specialize in web development, focusing on creating responsive, user-friendly websites and web applications. My services include front-end development, UI/UX design, and more.</p>
+                    </div>
+                    
+                    <!-- FAQ Item 2 -->
+                    <div class="faq-item">
+                        <h3>What is your typical turnaround time?</h3>
+                        <p>Turnaround time varies based on project complexity. Small projects typically take 1-2 weeks, while larger projects may take 4-8 weeks. I'll provide a more specific timeline after discussing your project requirements.</p>
+                    </div>
+                    
+                    <!-- FAQ Item 3 -->
+                    <div class="faq-item">
+                        <h3>Are you available for freelance work?</h3>
+                        <p>Yes, I am currently available for freelance projects and remote work opportunities. Feel free to reach out with your project details, and we can discuss how I can help.</p>
+                    </div>
+                    
+                    <!-- FAQ Item 4 -->
+                    <div class="faq-item">
+                        <h3>Do you offer website maintenance?</h3>
+                        <p>Yes, I offer website maintenance and support services to ensure your site remains up-to-date, secure, and functioning optimally. Contact me for maintenance package details.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Copyright information -->
+                <div class="copyright">
+                    <p>&copy; 2025 Your Name. All rights reserved.</p>
+                </div>
+                
+                <!-- Social media links -->
+                <div class="social-links">
+                    <!-- Add your social media profiles here -->
+                    <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <!-- Add more social links as needed -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="../js/scripts.js"></script>
+    
+    <!-- Additional JavaScript for the contact page -->
+    <script>
+        // Function to scroll to the contact form
+        function scrollToContactForm() {
+            const contactForm = document.querySelector('.contact-form');
+            if (contactForm) {
+                contactForm.scrollIntoView({ behavior: 'smooth' });
+                
+                // Optional: Highlight the form by adding a class
+                contactForm.classList.add('highlight');
+                
+                // Remove highlight class after animation
+                setTimeout(function() {
+                    contactForm.classList.remove('highlight');
+                }, 1500);
+            }
+        }
+    </script>
+</body>
+</html>
